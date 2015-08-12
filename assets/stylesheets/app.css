@@ -1,0 +1,25 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.vcenter {
+  border: 1px solid transparent;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+/*# sourceMappingURL=common.css.map */
+
+#land {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/sky-original.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-align: right; }
+  #land a, #land a:hover {
+    background-color: #8724CD;
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=land.css.map */
