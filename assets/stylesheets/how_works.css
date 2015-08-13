@@ -4,7 +4,8 @@
   font-size: 1.1em;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 3em; }
+  margin-top: 3em;
+  padding-top: 2em; }
 #how_works p.excerpt {
   font-size: 1.1em;
   margin: 2em 0; }
