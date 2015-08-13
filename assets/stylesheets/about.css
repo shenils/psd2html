@@ -1,0 +1,53 @@
+#about {
+  background-color: #2E3B4D;
+  color: #FFFFFF;
+  padding: 25vh 0; }
+  #about h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold; }
+  #about p {
+    font-weight: normal; }
+
+#about-action {
+  background-color: red;
+  background-image: url("../images/pinapple.jpg");
+  background-size: cover;
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 25vh 0;
+  text-align: center;
+  position: relative; }
+  #about-action::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-top: 8vh solid #2e3b4d;
+    border-right: 8vw solid transparent;
+    border-left: 8vw solid transparent; }
+  #about-action h2 {
+    margin-bottom: 2em; }
+  #about-action p {
+    max-width: 60vw;
+    margin: 0 auto; }
+  #about-action a {
+    background-color: #FFFFFF;
+    color: black;
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0 3em;
+    line-height: 3em;
+    border-radius: 1.5em;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: bold; }
+    #about-action a:hover {
+      text-decoration: none; }
+
+/*# sourceMappingURL=about.css.map */
