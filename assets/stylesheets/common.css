@@ -12,6 +12,10 @@ header nav.navbar {
   background-color: transparent;
   border-width: 0 0 1px 0;
   border-color: rgba(225, 225, 225, 0.15); }
+  header nav.navbar.affix {
+    background-color: black; }
+  header nav.navbar.affix-top {
+    background-color: transparent; }
   header nav.navbar form input {
     height: 2.4em;
     border-radius: 1.2em; }
@@ -29,8 +33,18 @@ header nav.navbar {
     color: #FFF;
     border: 3px solid transparent;
     border-width: 0 0 3px 0;
-    transition: border-color 0.3s ease-in; }
+    transition: border-color 0.3s ease-in;
+    background-color: transparent; }
   header nav.navbar.navbar-default .navbar-nav > li > a:hover {
+    border-color: #DF2BEC; }
+  header nav.navbar.navbar-default .navbar-nav > li.active a {
     border-color: #FFF; }
+    header nav.navbar.navbar-default .navbar-nav > li.active a, header nav.navbar.navbar-default .navbar-nav > li.active a:hover, header nav.navbar.navbar-default .navbar-nav > li.active a:visited, header nav.navbar.navbar-default .navbar-nav > li.active a:link {
+      background-color: transparent; }
+
+footer {
+  background-color: black;
+  color: #FFFFFF;
+  padding: 20vh 0; }
 
 /*# sourceMappingURL=common.css.map */

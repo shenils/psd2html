@@ -16,6 +16,14 @@ header {
     border-width: 0 0 1px 0;
     border-color: rgba(225, 225, 225, 0.15);
     
+    &.affix {
+      background-color: black; 
+    }
+
+    &.affix-top {
+      background-color: transparent;
+    }
+
     form {
       input {
         height: 2.4em;
@@ -42,17 +50,35 @@ header {
     }
   
 
-    &.navbar-default .navbar-nav>li>a {
-      &, &:hover, &:visited, &:link{
-        color: #FFF;
-        border: 3px solid transparent;
-        border-width: 0 0 3px 0;
-        transition: border-color 0.3s ease-in;
+    &.navbar-default .navbar-nav>li {
+      &>a {
+        &, &:hover, &:visited, &:link {
+          color: #FFF;
+          border: 3px solid transparent;
+          border-width: 0 0 3px 0;
+          transition: border-color 0.3s ease-in;
+          background-color: transparent;
+        }
+
+        &:hover {
+          border-color: #DF2BEC;
+        }
+
       }
 
-      &:hover {
+      &.active a {
         border-color: #FFF;
+
+        &, &:hover, &:visited, &:link {
+          background-color: transparent;
+        }
       }
     }
   }
+}
+
+footer {
+  background-color: black;
+  color: #FFFFFF;
+  padding: 20vh 0;
 }

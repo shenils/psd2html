@@ -1,0 +1,21 @@
+#contact {
+  background-color: #2E3B4D;
+  color: #FFFFFF;
+  padding: 20vh 0;
+
+  h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p.excerpt {
+    font-size: 1.1em;
+  }
+
+  a {
+    &, &:hover {
+      color: #FFF;
+    }
+  }
+}

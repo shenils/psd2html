@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/stylesheets/app.min.css">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/javascripts/app.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -23,12 +24,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#land">
             <span class="name">pex</span>
             <span class="tagline">Photoshop Website Template</span>
           </a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="nav-link-container">
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search Website">
@@ -36,11 +37,11 @@
             </div>
           </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">How it Works</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how_works">How it Works</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -91,7 +92,7 @@
     <div class="container">
       <h2>Wicked &amp; Wack, Bang Bang Boo!</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores inventore numquam pariatur quam nesciunt, culpa iure dolorum saepe eveniet atque? Tempora quas id repellat minus, mollitia earum totam, modi omnis deleniti neque. Quod magni atque doloribus nobis cum quia iste reiciendis ipsum deserunt id hic distinctio ad illum, commodi sequi!</p>
-      <a href="#">Get Started Today!</a>
+      <a href="#">Get Started Today</a>
     </div>
   </section>
   <section id="how_works">
@@ -120,5 +121,49 @@
       <div class="meta-info">Lorem ipsum dolor sit amet, consectetur.</div>
     </div>
   </section>
+  <section id="services">
+    <div class="service_container">
+      <div class="tag">Photography</div>
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <div class="author">
+        <img src="assets/images/don.jpg" alt="Don">
+        <span>Don Corleone</span>
+      </div>
+    </div>
+  </section>
+  <section id="faq">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-7">
+          <h3>Frequently Asked Questions</h3>
+          <p class="excerpt">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rerum, ratione. Velit consequatur esse natus asperiores nesciunt accusantium nisi, et ipsa repudiandae minima ipsum dolorem, nemo non nobis nulla itaque?
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolore fugiat, consectetur quos explicabo dolores cum deleniti similique odio quaerat eius repudiandae libero harum odit delectus praesentium quo sint, impedit ut doloribus numquam suscipit amet aperiam soluta totam. Esse, dolores.
+          </p>
+        </div>
+        <div class="col-sm-5 hidden-xs img-container">
+          <img src="assets/images/work.jpg" alt="how it works" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p class="excerpt">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+      <p>
+        <a href="#" id="email-link"></a>
+      </p>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, tenetur.
+    </div>
+  </footer>
 </body>
 </html>
