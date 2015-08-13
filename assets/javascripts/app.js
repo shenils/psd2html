@@ -10,7 +10,7 @@ $(document).ready(function() {
   })
   var email_components = ["hello", "@example", ".com"];
   var email = email_components.join("");
-  $('email-link').html(email).attr('href', 'mailto:'+email);
+  $('#email-link').html(email).attr('href', 'mailto:'+email);
 });
 
 
