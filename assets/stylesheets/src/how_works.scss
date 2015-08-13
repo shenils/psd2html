@@ -16,3 +16,42 @@
     margin: 2em 0;
   }
 }
+
+#how_works_action {
+  background-image: url('../images/windows.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  padding-top: 10vh;
+  color: #FFFFFF;
+
+  .action-container {
+    background-color: rgba(16, 78, 139, 0.5);
+    padding: 10vh 0 15vh; 
+  }
+
+  p {
+    color: #FFFFFF;
+    max-width: 60vw;
+    margin: 10vh auto;
+    font-size: 1.5em;
+    }
+
+  a {
+    &, &:hover {
+      background-color: rgb(204, 104, 57);
+      color: #FFF;
+      text-decoration: none;
+      padding: 0 3em;
+      height: 3em;
+      line-height: 3em;
+      display: inline-block;
+      margin-bottom: 1em;
+      border-radius: 1.5em;
+    }
+  }
+
+  .meta-info {
+    font-size: 0.7em;
+  }
+}

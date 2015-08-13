@@ -10,4 +10,32 @@
   font-size: 1.1em;
   margin: 2em 0; }
 
+#how_works_action {
+  background-image: url("../images/windows.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  padding-top: 10vh;
+  color: #FFFFFF; }
+  #how_works_action .action-container {
+    background-color: rgba(16, 78, 139, 0.5);
+    padding: 10vh 0 15vh; }
+  #how_works_action p {
+    color: #FFFFFF;
+    max-width: 60vw;
+    margin: 10vh auto;
+    font-size: 1.5em; }
+  #how_works_action a, #how_works_action a:hover {
+    background-color: #cc6839;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 3em;
+    height: 3em;
+    line-height: 3em;
+    display: inline-block;
+    margin-bottom: 1em;
+    border-radius: 1.5em; }
+  #how_works_action .meta-info {
+    font-size: 0.7em; }
+
 /*# sourceMappingURL=how_works.css.map */
